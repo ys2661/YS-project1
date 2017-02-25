@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<!-- saved from url=(0266)https://hwid1.vmall.com/CAS/portal/userRegister/regbyemail.html?reqClientType=26&loginChannel=26000000&countryCode=cn&loginUrl=https%3A%2F%2Fhwid1.vmall.com%2FCAS%2Fportal%2Flogin.html&service=https%3A%2F%2Fwww.vmall.com%2Faccount%2Fcaslogin&lang=zh-cn&themeName=red -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<title>注册_电子邮箱</title>
+
+<link href="https://hwid1.vmall.com/CAS/up/common/images/default/hwfavicon.ico" type="image/x-icon" rel="shortcut icon"> 
+<link href="./注册_电子邮箱_files/ec.core.css" rel="stylesheet" type="text/css"> 
+<link href="./注册_电子邮箱_files/common.css" rel="stylesheet" type="text/css"> 
+<link href="./注册_电子邮箱_files/zh-cn_css.css" rel="stylesheet" type="text/css"> 
+<link href="./注册_电子邮箱_files/dialog.css" rel="stylesheet" type="text/css"> 
+<script type="text/javascript">var localHttps="https://hwid1.vmall.com/CAS";var currentSiteID="1";</script>
+<script src="./注册_电子邮箱_files/jsapi.js" namespace="ec"></script><!--[if lte IE 6]><script>ol.isIE6=true;</script><![endif]--><!--[if IE 7]><script>ol.isIE7=true;</script><![endif]--><!--[if IE 8]><script>ol.isIE8=true;</script><![endif]-->
+<script src="./注册_电子邮箱_files/jquery-1.8.2.min.js" id="jsid"></script>
+<script src="./注册_电子邮箱_files/ec.core.js"></script>
+<script src="./注册_电子邮箱_files/casui.js"></script>
+<script src="./注册_电子邮箱_files/ec.business.js"></script> 
+<script src="./注册_电子邮箱_files/commonjs.js"></script>
+<script src="./注册_电子邮箱_files/base.js"></script>
+
+
+<script src="./注册_电子邮箱_files/casui.js"></script>
+<script src="./注册_电子邮箱_files/reg_base.js"></script>
+
+
+<link href="./注册_电子邮箱_files/dialog.css" rel="stylesheet" type="text/css"> 
+
+<style type="text/css">
+
+.selected {
+    padding: 10px;
+    cursor: pointer;
+    background-image: url("https://hwid1.vmall.com/CAS/up/rss_7/css/portal/common_rss/images/red.png?20170105");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+}
+
+</style>
+
+<script type="text/javascript">
+	var rss = { 
+		js_inputcode : "请输入验证码",
+		js_wrongcode : "验证码错误",
+		findpwd : "重置密码",
+		
+		IGetIt: "确定",
+		hint: "提示",
+		loginOverdue: "当前页面已过期，请刷新当前页面后重试。",
+		overload:"系统繁忙，请稍后再试！",
+		js_registeragreement : "注册协议",
+		js_emptyemail : "电子邮箱为空，请正确填写",
+		js_emailfomaterror : "对不起，您输入的电子邮箱错误",
+		js_inputpwd : "请输入您的密码",
+		js_pwdlimit : "密码长度为8~32个字符",
+		js_confirmpwd : "确认密码：",
+		js_pwdnotsame : "密码与确认密码不一致",
+		login_js_accountlength : "华为帐号限制在5~50 个字符",
+		js_accountlength : "5~50 个字符",
+		js_pwdlength : "8~32个字符",
+
+		codelength:htmlDecodeJQ("&#37038;&#20214;&#39564;&#35777;&#30721;"),
+		emailHasSendTo: "验证码邮件已经发送至  <em class='userAccount'>{0}</em>, 请登录邮箱检查收件箱或垃圾箱是否收到验证邮件",
+		
+		inputsmscode:"输入新邮箱验证码",
+		wrongformatsmscode:"验证码错误",
+		codeformaterror:"验证码格式错误",	
+		getsmscode:"获取验证码",
+		
+		js_ignorecase : "不区分大小写",
+		more_details : "更多详情",
+		agree : "同意",
+		
+		js_regprotocol : "您只有同意我们的服务条款，才能进行注册！",
+		js_existemail : "该邮箱号码已注册！",
+		js_emailregfail : "电子邮箱注册失败！",
+		js_checking : "正在检测……",
+		js_usableemail : "该电子邮箱未被使用，可以顺利注册！",
+		js_timeout : "检测超时！",
+		lang : "zh-cn",
+		weak : "弱",
+		common : "中",
+		strong : "强",
+		reg_isDialog : '0',
+		common_js_pwd_format_error : "密码格式错误",
+		common_js_pwd_account_same_reverse : "密码不能和帐号或者和帐号的倒序相同",
+		modifyUserPwd_input_8_32_chars : "请输入8~32字符",
+		modifyUserPwd_input_8_32_complax_chars_desc : "密码由8-32位字符组成，需至少包含一个大写字母、一个小写字母和一个数字，建议不与其他密码相同",
+		nickName_exsit:"昵称已存在，请更换。",
+		
+		chooseDateTip: "请选择生日的年月日",
+		birthdayLimitTip: "生日必须小于当前时间",
+		ageLimitTip: "用户必须满足13周岁",
+		nicknameMissingTip: "请输入昵称",
+		notnull:"1~20个字符",
+		resendEmail: "重新发送",
+		getAuthCode: "获取验证码",
+		verifiedUnfinished: "验证未完成。请登录邮箱检查收件箱或垃圾箱是否收到验证邮件，并且按照邮件说明完成验证。",
+		unverifiedEmailAddr: "邮件地址未验证",
+		verifyEmailSendTo: "验证邮件已经发送至{0}请登录邮箱检查收件箱或垃圾箱是否收到验证邮件，并按照邮件说明完成邮件地址验证。",
+		verifyEmailSendToOther: "验证邮件已发送至{0}",
+		loginTip: "null",
+		resend: "重新获取",
+		resend_time:"重新获取（{0}）",
+		exit: "取消",
+		verified: "已验证",
+		nicknameLengthLimit: "请输入1~20个字符",
+		nicknameerror: "不可包含特殊字符",
+		autoCodeSuccess: "验证码正确",
+		day: "日",
+		month: "月",
+		year: "年",
+		common_agree_two:"点击“注册”，即表示我同意华为隐私政策与最终用户许可协议。",
+		common_agree_two_age:"点击“注册”，即表示我确认已满{0}岁并同意华为隐私政策与最终用户许可协议。",
+		register_info_error:"您的注册信息存在错误,请修改",
+		now_register_x_account:htmlDecodeJQ("&#27491;&#22312;&#27880;&#20876;{0}&#21326;&#20026;&#24080;&#21495;"),
+		
+		error_10000001: "系统繁忙，请稍后再试！",
+		error_10000001_1: "获取验证码失败，请稍后再试!",
+		error_10000001_2: "密码错误",
+		error_10000001_3: "请输入正确的帐号！",
+		error_10000002: "不提供服务!",
+		error_10000004: "非法操作!",
+		error_10002073: "密码不符合规则",
+		error_70001401: "系统内部错误",
+		error_70002001: "用户不存在",
+		error_70002028: "用户没有传入的手机号",
+		error_70002046: "手机号已经激活",
+		error_70002030: "短信验证码发送失败",
+		error_70001101: "没有权限执行此操作",
+		error_70001102_0: "获取验证码邮件次数较为频繁，请检查收件箱或垃圾箱是否收到验证邮件，1小时后可重试。",
+		error_70001102_1: "获取验证码短信次数较为频繁， 1小时后可重试。",
+		error_70001104_0: "获取验证码邮件次数过于频繁，请检查收件箱或垃圾箱是否收到验证邮件，24小时后可重试。",
+		error_70001104_1: "获取验证码短信次数过于频繁， 24小时后可重试",
+		error_70001104_2: "激活邮件发送太频繁",
+		error_70006007_0: "使用该安全邮件地址的华为帐号数量已达上限",
+		error_70006007_1: "使用该安全手机号的华为帐号数量已达上限",
+		error_70002055: "用户帐号不存在",
+		error_70006006: "帐号不被支持",
+		error_70002002: "帐号已存在",
+		error_70002070: "密码复杂度过低",
+		error_70002057: "验证码已连续错误超过三次",
+		error_70002058: "密码错误次数过多，请明天再试",
+		error_70002039: "验证码不存在或已过期",
+		error_70002073: "用户必须保留一个手机帐号或邮箱帐号",
+		error_70002043: "用户关闭手机找回密码后，不能删除仅有的一个邮箱或者安全邮箱",
+		error_70002053: "待删除的帐号信息不存在",
+		error_70002016: "删除安全邮箱帐号失败",
+		error_70002016_1: "变更帐号后，删除业务Token失败",
+		error_70001201_0: "帐号和类型不匹配",
+		error_70001201_1: "验证码错误",
+		error_70001201_2: "系统繁忙，请稍后再试！",
+		error_70002018: "发送激活邮件失败。",
+		error_70002019: "邮箱帐号已经激活。",
+		error_70002008: "用户没有传入email",
+		error_70002009: "帐号未激活",
+		error_70005002: "昵称已经存在",
+		error_70005003: htmlDecodeJQ("&#19981;&#21487;&#21253;&#21547;&#21463;&#38480;&#21046;&#25991;&#23383;"),
+		error_70007007: "儿童不能同意“家长同意书”",
+		error_70007001: "监护人监护的儿童超过上限",
+		error_70007003: "监护人年龄必须大于18岁",
+		error_70007004: "监护人没有同意“家长同意书”",
+		error_70002003: "监护人帐号或者密码错误",
+		error_70006606: "监护人帐号不能为用户名帐号（非邮箱非手机）",
+		error_70002067: "不在服务区(您所在的地方暂未开通服务)",
+		error_70002033: "不能注册@inner.up.huawei后缀的邮件地址",
+		error_70008001: "不可是常见密码或弱密码"
+	};
+
+	var getpasswordlink = "https://hwid1.vmall.com/CAS/portal/resetPwd/forgetbyid.html?reqClientType=26";
+
+	var localInfo = {
+		thirdLoginUrlAddrass : "https://hwid1.vmall.com/CAS",
+		authCodeValidate : "https://hwid1.vmall.com/CAS/casserver/authcodevalidate",
+		webssoLoginSessionCode : "https://hwid1.vmall.com/CAS/casserver/randomcode",
+		reqClientType:"26",
+		loginChannel:"26000000",
+		service:"https://www.vmall.com/account/caslogin",
+		loginUrl:"https://hwid1.vmall.com/CAS/portal/login.html",
+		accountType:"1",
+		email_impPng:"https://hwid1.vmall.com/CAS/up/rss_7/css/portal/register_rss/red/images/email-imp.png?20170105",
+		remoteLogin:"https://hwid1.vmall.com/CAS/remoteLogin",
+		submit:"true",
+		urlQurey:"?reqClientType=26&loginChannel=26000000&countryCode=cn&loginUrl=https%3A%2F%2Fhwid1.vmall.com%2FCAS%2Fportal%2Flogin.html&service=https%3A%2F%2Fwww.vmall.com%2Faccount%2Fcaslogin&lang=zh-cn&themeName=red",
+		pageToken:"iHmrpDG8urpe9MKBBdqiQHRpfiEQ6XsH",
+		currentSiteID:"1",
+		items_year:"[N-year, 2017-2017, 2016-2016, 2015-2015, 2014-2014, 2013-2013, 2012-2012, 2011-2011, 2010-2010, 2009-2009, 2008-2008, 2007-2007, 2006-2006, 2005-2005, 2004-2004, 2003-2003, 2002-2002, 2001-2001, 2000-2000, 1999-1999, 1998-1998, 1997-1997, 1996-1996, 1995-1995, 1994-1994, 1993-1993, 1992-1992, 1991-1991, 1990-1990, 1989-1989, 1988-1988, 1987-1987, 1986-1986, 1985-1985, 1984-1984, 1983-1983, 1982-1982, 1981-1981, 1980-1980, 1979-1979, 1978-1978, 1977-1977, 1976-1976, 1975-1975, 1974-1974, 1973-1973, 1972-1972, 1971-1971, 1970-1970, 1969-1969, 1968-1968, 1967-1967, 1966-1966, 1965-1965, 1964-1964, 1963-1963, 1962-1962, 1961-1961, 1960-1960, 1959-1959, 1958-1958, 1957-1957, 1956-1956, 1955-1955, 1954-1954, 1953-1953, 1952-1952, 1951-1951, 1950-1950, 1949-1949, 1948-1948, 1947-1947, 1946-1946, 1945-1945, 1944-1944, 1943-1943, 1942-1942, 1941-1941, 1940-1940, 1939-1939, 1938-1938, 1937-1937, 1936-1936, 1935-1935, 1934-1934, 1933-1933, 1932-1932, 1931-1931, 1930-1930, 1929-1929, 1928-1928, 1927-1927, 1926-1926, 1925-1925, 1924-1924, 1923-1923, 1922-1922, 1921-1921, 1920-1920, 1919-1919, 1918-1918, 1917-1917, 1916-1916, 1915-1915, 1914-1914, 1913-1913, 1912-1912, 1911-1911, 1910-1910, 1909-1909, 1908-1908, 1907-1907, 1906-1906, 1905-1905, 1904-1904, 1903-1903, 1902-1902, 1901-1901, 1900-1900]",
+		items_month:"[N-month, 12-12, 11-11, 10-10, 9-9, 8-8, 7-7, 6-6, 5-5, 4-4, 3-3, 2-2, 1-1]",
+		agreementContentsStr:"[{'id':'12','siteC':'$countryCode','ver':'10004'},{'id':'0','siteC':'$countryCode','ver':'1.03'},{'id':'2','siteC':'$countryCode','ver':'1.03'}]",
+		loginUrl:"https://hwid1.vmall.com/CAS/remoteLogin?reqClientType=26&loginChannel=26000000&countryCode=cn&loginUrl=https%3A%2F%2Fhwid1.vmall.com%2FCAS%2Fportal%2Flogin.html&service=https%3A%2F%2Fwww.vmall.com%2Faccount%2Fcaslogin&lang=zh-cn&themeName=red",
+		lang:"zh-cn",
+		createChildFlag:"false",
+		countryCode:"cn",
+		thirdLoginFlag:"false"
+	};
+</script>
+
+</head>
+<body class="reg">
+    <!-- 头部  -->
+
+<div class="head-background">
+	<div class="head_center">
+		
+		     
+			  	<div class="main-logo">
+					<img src="./注册_电子邮箱_files/logo2.png">
+				</div>
+				<div class="website-name" style="color:#fff;">
+					<b style="font-size: 23px;margin-top: -4px;float: left;">|</b>
+					<b style="font-size: 23px;margin-top: -1px;float: left; margin-left:5px;">华为商城</b>
+				</div>
+			
+		
+	</div>
+</div> 
+	
+	
+	<div class="wp1 relative">
+		<div class="reg-content" id="registerForm">
+			<div class="reg-tab">
+			  
+			
+			 		<a href="https://hwid1.vmall.com/CAS/portal/userRegister/regbyphone.html?reqClientType=26&amp;loginChannel=26000000&amp;countryCode=cn&amp;loginUrl=https%3A%2F%2Fhwid1.vmall.com%2FCAS%2Fportal%2Flogin.html&amp;service=https%3A%2F%2Fwww.vmall.com%2Faccount%2Fcaslogin&amp;lang=zh-cn&amp;themeName=red" class="tab-phone">手机号</a>
+			 	   <a href="https://hwid1.vmall.com/CAS/portal/userRegister/regbyemail.html?reqClientType=26&amp;loginChannel=26000000&amp;countryCode=cn&amp;loginUrl=https%3A%2F%2Fhwid1.vmall.com%2FCAS%2Fportal%2Flogin.html&amp;service=https%3A%2F%2Fwww.vmall.com%2Faccount%2Fcaslogin&amp;lang=zh-cn&amp;themeName=red" class="tab-email sel">电子邮箱</a>
+			   
+			  
+			</div>
+			<div class="login r">
+				已有华为帐号
+				<a href="https://hwid1.vmall.com/CAS/remoteLogin?reqClientType=26&amp;loginChannel=26000000&amp;countryCode=cn&amp;loginUrl=https%3A%2F%2Fhwid1.vmall.com%2FCAS%2Fportal%2Flogin.html&amp;service=https%3A%2F%2Fwww.vmall.com%2Faccount%2Fcaslogin&amp;lang=zh-cn&amp;themeName=red" class="login-a" title="登录">登录 </a>▶
+			</div>
+			
+			<div class="reg-detail">
+				<h3 class="reg-title">注册华为帐号</h3>
+				<p class="node-intro">
+                	华为帐号是您用于访问所有华为服务的帐号。使用华为帐号登录后，您将可以使用云服务、华为商城、花粉俱乐部、应用市场、EMUI产品、开发者联盟，及更多服务。
+                </p>
+                <div class="box-shadow-in"></div> 
+                
+				<div class="node">
+					<div class="node-title">华为帐号</div>
+					<div class="node-intro">输入邮件地址作为您的华为帐号，用于登录、重设密码、验证身份。</div>
+					<div class="node-des mkcl">
+						<div class="node-input r">
+							<div class="dinput">
+								
+								  
+									
+										<label class="lb_opacity_Class" style="display: block; position: absolute; cursor: text; float: left; z-index: 2; padding-left: 0px; padding-top: 8px;" for="username"><div style="border: none; cursor: text; margin: 2px; color: rgb(204, 204, 204); background: transparent;" tabindex="-1">5~50 个字符</div></label><input type="text" name="formBean.username" id="username" maxlength="50" validator="validator11487664050695" class="" style="z-index: 1;">     
+									
+									
+									
+							</div>
+							<span id="msg_email"></span>
+						</div>
+						<div class="input-intro">邮件地址：</div>
+					</div>
+					
+					<!-- 验证码 -->
+					  
+						
+							<div class="node-des mkcl">
+						
+						
+						
+						<div class="node-input r">
+							<div class="short r">
+								<div>
+									<input type="button" class="dbtn2 r" id="getValiCode" intervaltime="60" onclick="getEmailCode()" value="获取验证码">
+									<span id="msg_getPhoneRandomCode" style="position:relative;top:34px;"></span>
+								</div>
+							</div>
+							<div class="short">
+								<div class="dinput">
+									  
+										
+											<label class="lb_opacity_Class" style="display: block; position: absolute; cursor: text; float: left; z-index: 2; padding-left: 0px; padding-top: 8px;" for="authCode"><div style="border: none; cursor: text; margin: 2px; color: rgb(204, 204, 204); background: transparent;" tabindex="-1" class="verify vam ime-disabled">邮件验证码</div></label><input type="text" autocomplete="off" class="verify vam ime-disabled" id="authCode" style="vertical-align: middle; z-index: 1;" name="formBean.authCode" maxlength="8" tabindex="3" validator="validator41487664050704">
+										
+										
+										
+								</div>
+								<span id="msg_phoneRandomCode"></span>
+							</div>
+						</div>
+						<div class="input-intro">验证码：</div>
+					</div>
+				</div>
+				<div class="box-shadow-in"></div> 
+				
+				<div class="node">
+					<div class="node-title">设置登录密码</div>
+					<div class="node-intro">密码由8-32位字符组成，需至少包含一个大写字母、一个小写字母和一个数字，建议不与其他密码相同</div>
+					<div class="node-des mkcl">
+						<div class="node-input r">
+							<div class="dinput"><label class="lb_opacity_Class" style="display: block; position: absolute; cursor: text; float: left; z-index: 2; padding-left: 0px; padding-top: 8px;" for="input_label_0"><div style="border: none; cursor: text; margin: 2px; color: rgb(204, 204, 204); background: transparent;" tabindex="-1">8~32个字符</div></label><input type="password" name="formBean.password" maxlength="32" validator="validator21487664050696" id="input_label_0" style="z-index: 1;"></div>
+							<div class="pwd-letter">
+								<span> 弱 </span><span> 中 </span><span> 强 </span>
+							</div>
+							<span id="msg_password"></span>
+						</div>
+						<div class="input-intro">密码：</div>
+					</div>
+					<div class="node-des mkcl">
+						<div class="node-input r">
+							<div class="dinput"><label class="lb_opacity_Class" style="display: block; position: absolute; cursor: text; float: left; z-index: 2; padding-left: 0px; padding-top: 8px;" for="input_label_1"><div style="border: none; cursor: text; margin: 2px; color: rgb(204, 204, 204); background: transparent;" tabindex="-1">8~32个字符</div></label><input type="password" name="checkPassword" maxlength="32" validator="validator31487664050703" id="input_label_1" style="z-index: 1;"></div>
+							<span id="msg_checkPassword"></span>
+						</div>
+						<div class="input-intro">确认密码：</div>
+					</div>
+				</div>
+				<div class="box-shadow-in"></div> 
+
+				
+
+				<!-- 选择国家开始 -->
+				<div class="node" id="chooseCountry">
+					
+					<div class="regAgrTitle node-title">华为帐号服务条款</div>
+				
+					<div class="node-title">国家/地区
+					</div>
+	   				<div class="foot-selectCountry-margin selectCountry-right">
+	     				<div class="selectCountryImg_style">
+		         			
+		  				</div>	    
+	     				<div class="selectedCountry_style">
+			     			<div>
+						    	<div id="selectedCountry">中国</div>
+						    </div>
+					  </div>
+					</div>					
+					<div id="regXCountry" class="node-intro">正在注册中国华为帐号</div>
+				</div>
+				<div class="box-shadow-in" id="chooseCountryShadow"></div> 				
+				<!-- 选择国家结束 -->
+								
+				    
+					<div class="node">
+
+						<div class="node-intro"><div class="agrLineH">华为将为您创建唯一的华为帐号，来标识您和提供更优服务，且需搜集和处理以下信息： </div><div class="agrLineH agrIndent">您所有登录的设备信息，包括：IMEI、IMSI、SN、国家/地区、语言、型号和版本号；</div><div class="agrLineH agrIndent">您向我们提交的个人信息，包括：手机号、邮件地址、密码、头像、昵称、生日、姓名和性别；</div><div class="agrLineH">上述数据将会传输并保存至华为全球的服务器。您可通过销户删除所有个人数据。</div><br><div class="agrLineH">华为帐号用户可以通过手机号或邮件地址搜索到您，并可查看您的公开信息，包括：头像、昵称、城市等。您也可以在华为帐号的设置中关闭。</div><br><div class="agrLineH">点击“注册”，即表示您同意上述内容及<a href="https://hwid1.vmall.com/CAS/portal/agreements/EULA/zh-cn_EULA.html?version=china" target="_blank" class="loginAndRegLink">华为帐号用户协议</a>并确认您已阅读<a href="https://hwid1.vmall.com/CAS/portal/agreements/userPrivacyPolicy/zh-cn_userPrivacyPolicy.html" target="_blank" class="loginAndRegLink">华为隐私政策</a>。</div></div>
+					</div>
+					<div class="box-shadow-in"></div> 
+				
+				
+		
+				
+				<div class="reg-btn" align="center">
+					<input type="button" class="btn btn-reg sel" id="btnSubmit" value="注册" tabindex="7">
+					<div id="register_msg" class="vam error" style="position:relative;left:30%;"></div>
+					<div id="register_msg2" class="vam error hide" style="margin-left: -60px;"></div>
+				</div>
+			</div>
+			<div class="box-shadow"></div> 
+		</div>
+	</div>
+    
+     <input type="hidden" id="countryRegion" value="1-cn">
+	<div id="selectCountryCodeDiv"></div>
+  
+
+	 <!-- 底部  -->
+
+<style>
+
+.selectCountryImg {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("https://hwid1.vmall.com/CAS/up/rss_7/css/mobile/standard_rss/images/down.png?20170105") no-repeat;
+    background-position-y: 12px;
+     
+}
+
+</style>
+<div class="wp1 ft">
+	<div class="reg-content">
+		<p class="footer">
+				
+					<a id="foot_privacy" href="https://hwid1.vmall.com/CAS/portal/agreements/userPrivacyPolicy/zh-cn_userPrivacyPolicy.html?version=europe" class="rule" target="_blank">华为隐私政策</a>
+					<a id="foot_EULA" href="https://hwid1.vmall.com/CAS/portal/agreements/EULA/zh-cn_EULA.html?version=china" class="rule" target="_blank">华为帐号用户协议</a>
+				
+				
+				
+				
+				
+				
+				
+			<a href="https://hwid1.vmall.com/CAS/portal/userRegister/regbyemail.html?reqClientType=26&amp;loginChannel=26000000&amp;countryCode=cn&amp;loginUrl=https%3A%2F%2Fhwid1.vmall.com%2FCAS%2Fportal%2Flogin.html&amp;service=https%3A%2F%2Fwww.vmall.com%2Faccount%2Fcaslogin&amp;lang=zh-cn&amp;themeName=red#" target="_blank"><em style="font-style: normal">|</em> </a><a style="text-decoration: underline;" target="blank" href="https://hwid1.vmall.com/CAS/portal/faq/faq.html">常见问题</a>
+		</p>
+		
+		
+			
+			
+				<p class="footer">Copyright&nbsp;@&nbsp;2011-2017&nbsp;&nbsp;华为软件技术有限公司&nbsp;&nbsp;版权所有&nbsp;&nbsp;保留一切权利&nbsp;&nbsp;苏B2-20070200号&nbsp;|&nbsp;苏ICP备09062682号-9</p>	
+			
+			
+			
+		
+		
+		
+		
+		
+<!-- 隐藏多余的选择国家，因为已经转移到协议上面 
+	   <div class="foot-selectCountry-margin">
+	     <div style="float:right;right:10px">
+		         <a href="#" style="cursor:hand"><div id="selectCountryImg" class="selectCountryImg"></div></a>
+		  </div>	    
+	     <div style="float:right;margin-right:10px">
+		     <div>
+		         <div id="selectedCountry"></div>
+		     </div>
+		  </div>
+		  
+	  </div>
+-->
+	</div>
+</div>
+ 
+	
+	<script src="./注册_电子邮箱_files/register.js"></script>
+	<script type="text/javascript">
+	
+		function changeRandomCode() {
+			gid('randomCodeImg').src = "https://hwid1.vmall.com/CAS/authCodeImage?session_code_key=p_reg_email_session_ramdom_code_key&_t=" + new Date().getTime();
+		};
+		
+	 	$(document).ready(function(){
+			//drop menu
+			$(".ddrop").click(function() {
+					var open = $(this).data("open");
+					if (!open) {
+						$(this).children('.dpmenu').attr("tabindex", 0).fadeIn(300).focus();
+						$(this).data("open", true);
+					}
+				});
+	
+				$(".dpmenu > li").click(function() {
+					var $p = $(this).closest('.ddrop');
+					$p.children('input').val($(this).data("value"));
+					$p.children('span').text($(this).text());
+					$(this).parent().fadeOut(300, function() {
+						$p.data("open", false);
+					});
+				});
+	
+				$(".dpmenu").blur(function() {
+					$(this).fadeOut(300, function() {
+						$(this).parent().data("open", false);
+					});
+				}); 
+				
+				$(".tick").on("click", function() {
+					$(this).data("value") == true ? $(this).trigger("turnoff") : $(this).trigger("turnon");
+				}).on("turnon", function() {
+					$(this).removeClass("off");
+					$(this).data("value", true);
+					$(this).trigger("change", [true]);
+					if($(".tick.off").length == 0) {
+						$("#btnSubmit").addClass("sel");
+					}
+				}).on("turnoff",function() {
+					$(this).addClass("off");
+					$(this).data("value", false);
+					$(this).trigger("change", [false]);
+					$("#btnSubmit").removeClass("sel");
+				});
+		
+				//调整tips样式
+		 		$(".lb_opacity_Class").css("padding-top","8px");
+		 				
+		 		//页面加载时获取国家列表
+		 		getCountryRegion();
+		 		displayCountry();	
+		});
+	 	
+	</script>
+
+
+</body></html>

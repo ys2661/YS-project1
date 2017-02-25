@@ -1,0 +1,59 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,form,span, img,input,button,p{padding:0;margin:0} 
+li{list-style: none;}
+img { border: none; }
+a{text-decoration: none;color: black;}
+#logo,#wrapRegister{width: 100%;margin: 0 auto;}
+body{font-size: 12px; font-family: "微软雅黑";}
+
+/**************logo****************/
+#logo{height: 67px;background: #333333;}
+h1{margin-left:160px;font-size: 22px;font-weight:400 ;height:67px;color: white;font-family: "宋体";}
+h1 img{margin-top: 8px;padding-right: 14px;}
+h1 span{display: inline-block;position: relative;top:-8px;padding-left: 8px;border-left: 2px solid white;} 
+
+/***************注册页面***************/
+#wrapRegister{background: #f1f1f1;overflow: hidden;}
+.register1{width: 990px;margin: 0 auto;background: white;margin-top: 62px;position: relative;padding-top: 40px;}
+.phone{display:block;width: 130px;height: 30px;background: #eb1c24;color: white;line-height: 30px;padding-left: 10px;position:absolute;top: -30px;left: 0px;}
+.phone span{margin-left: 12px;}
+.phone span:hover{text-decoration: underline;}
+.email{background: #999;left: 150px;}
+.email span{font-size: 12px; font-family: "宋体";}
+.log{position: absolute;right: 0px;top:-25px;}
+.log i{font-size: 10px;}
+.log a span{color: #eb1c24;text-decoration: underline;margin:0 5px;}
+
+/***************注册页面****************/
+.register2{width: 792px;margin: 0 auto;}
+.notice{height: 120px;width: 792px;border-bottom: 1px solid #e0e0e0;}
+.noticeTitle{font-size: 28px;height: 50px;line-height: 50px;}
+.noticeInfor{height: 17px; line-height: 17px;color:#999;padding-bottom: 30px;}
+
+/**************手机号注册****************/
+.huaweiNum{height: 205px;width:100%;padding-top: 45px;color: #999;border-bottom: 1px solid #e0e0e0 ;position: relative;}
+.num1{font-size: 16px;height: 35px;color: black;}
+.num2{height: 45px;display: inline-block;}
+.span2{width: 141px;height: 34px;border: 1px solid #c5c5c5;display: inline-block;line-height: 34px;padding:0 10px;position: relative;margin-left: 96px;color: black;}
+.china86{width: 141px;height: 34px;border: 1px solid #c5c5c5;line-height: 34px;padding: 0 10px;position: absolute;top:36px;left: 0px;border-radius: 10px;background: white;display: none;}
+.span2 i{position: absolute;right:10px ;}
+.phoneNum{position: relative;}
+.inputNum{width: 129px; height: 34px;border: 1px solid #c5c5c5;line-height: 34px;padding: 0 16px;margin-left: 8px;}
+.inputNum2{margin-left: 96px;margin-top: 30px;}
+.obt{width: 163px;color: black;}
+.remind{display: inline-block;display:none;width: 145px;height: 22px;line-height: 22px;position: absolute;left: 316px;border-radius: 5px;color: red;border: 1px solid red;padding-left:15px;}
+/***********密码设置**********/
+.password{height: 261px;border-bottom: 1px solid #e0e0e0 ;}
+.pwset2{width: 300px; height: 34px;border: 1px solid #b2b2b2;line-height: 34px;padding: 0 16px;margin-top: 30px;margin-left: 83px;}
+.pwset1{width: 300px; height: 34px;margin-left: 106px;} 
+.pwset{position: relative;}
+.pw-pow{width: 280px;position: absolute;top: 36px;left:140px;}
+.pw-pow span{width: 80px;text-align: center;display: inline-block;background: #eee;color: #aaa;margin-left: 6px;}
+.powinfor{position: absolute;left: 480px;top: 5px;display: block;width: 140px;height: 20px;line-height: 20px;border: 1px solid red;border-radius:5px ;padding: 0 10px;color: red;display: none;}
+.powinfor2{position: absolute;left: 480px;top: 73px;display: block;width: 140px;height: 20px;line-height: 20px;border: 1px solid red;border-radius:5px ;padding: 0 10px;color: red;display: none;}
+.powinfor3{position: absolute;left: 480px;top: 73px;display: block;width: 20px;height: 20px;line-height: 20px;text-align: center;background: green;color: white;border-radius: 50%;display: none;}
+/***********服务条款**************/
+.pic{width: 100%;}
+.pic img{width: 100%;}
+.btn_sure{height: 85px;}
+.btn_sure button{width: 278px;height: 44px;margin: 0 auto;text-align: center;line-height: 44px;background: #d70506;color:white;display:block;}
+.footer img{width: 100%;}

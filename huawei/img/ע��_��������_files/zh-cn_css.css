@@ -1,0 +1,153 @@
+@charset "utf-8";
+.wp1{width:100%; margin:0px auto;}
+.tab-phone,.tab-email,.agree .tick{background-image:url("./../images/main_reg.png"); background-repeat:no-repeat;}
+
+.huawei{background-image:url("./../images/huawei.png"); background-repeat:no-repeat;}
+
+
+.reg{background-color: rgb(241, 241, 241);height: 53px;}
+/* .reg-header{margin:30px auto 5px;} */
+.head-background{background-color: #333333;}
+.ver-bottom{vertical-align:bottom;}
+.logo{color:#666; font-size:21px; line-height:35px; display:inline;}
+span.logo{padding:0 10px 0 20px;}
+.reg-content{margin:0px auto;width:988px;}
+.reg-tab{margin-top:29px;backgroud-color:red;margin-left:0px;}
+.reg-tab a{display:inline-block; width:99px; height:26px; line-height:16px; color:#fff; font-size:12px; padding-left:40px;padding-top: 7px;}
+.reg-tab .tab-email{padding-left:50px;}
+.tab-phone.sel{background-position:0 0px;}
+.tab-email{background-position:-150px 0px;}
+.tab-phone{background-position:0px -100px;}
+.tab-email.sel{background-position:-150px -100px;}
+.reg-detail{padding:52px 97px 38px 97px; background-color:#fff;}
+.reg-title{font-size:28px; color: #000;font-family: "Microsoft Yahei" ! important;}
+.reg-header{margin-left: 230px;width: 170px;float: left;margin-top: 5px;}
+.website-name{color: white;font-size: 20px; height: 67px;line-height: 50px;font-family: "arial";padding-top: 8px;}
+.node{margin-top:42px;}
+.node-title{font-size:14px; font-weight:bold;}
+.node-intro{color:#999; line-height:16px; margin-top:19px;}
+.node-des{margin:30px 53px 0 0px;}
+.node-input{width:334px;margin-right: 270px}
+.input-intro{font-size:12px; color:#999; padding:10px 0; text-align: left; width: 110px;}
+.node-input .dinput{margin-top:0; border-radius: 0px; color:#333;}
+.node-input .ddrop{color:#333; margin-top:0; border-radius: 0px; padding:10px 14px; font-size:12px;}
+.node-input .dpmenu{color:#999;font-size:12px;}
+.node-input .dbtn2{width:163px; border-radius: 0px; height: 34px; line-height: 34px; font-size:12px;}
+.node-input .dinput input{line-height:32px; height:32px;}
+.short{width:163px;}
+.agree{margin-top:24px; font-size:14px; line-height:20px; color:#666;font-weight: initial;}
+.reg-btn{margin-top:38px;text-align: center;}
+.reg-btn{border-radius: 0px;}
+.btn{border-radius: 0px; width:142px; margin-right:56px;color: #cccccc;}
+.btn-reg{width: 279px;height: 45px;margin: 0 auto;}
+.reg-btn .btn.sel {background-color: #d70506;border: solid 1px #9c9c9c;color: #fff;}
+/* .btn{ background-color: red;color: white;} */
+.agree .tick{background-position:0 -50px;padding: 3px 11px;}
+.agree .tick.off{background-position:-99px -50px;padding: 3px 11px;}
+.ft .reg-content{margin-top:30px; margin-bottom:30px; text-align:center;}
+.footer{line-height:18px; color:#999;}
+.footer a{font-size:14px; line-height:18px; color:#999;}
+.relative{position:relative;}
+.verimg{top: -15px; position:absolute; cursor: pointer;}
+.refresh{right: -25px; top: -3px; position:absolute; cursor: pointer;}
+.reg-more{font-size:14px; color:#999; font-weight: normal;}
+.box-shadow{padding-bottom:30px; border-bottom:1px solid #d7d7d7; text-align:center;}
+.box-shadow-in{padding-bottom:30px; border-bottom:1px solid #e0e0e0; text-align:center;}
+.box-shadow img{position:absolute; bottom:65px; left: 90px; z-index: -1;}
+.bir-node .short{width:93px; display: inline-block; margin-right: 6px;}
+.bir-node .last{margin:0;}
+.login{margin-top:-25px;}
+.grey{background-color:#ccc; border:none; color: #fff; font-weight: bold;}
+.dinput{font-size:12px;}
+
+.top-div{
+  background-color:rgb(51, 51, 51);
+  height: 45px;
+  line-height: 45px;
+}
+.huawei{
+ margin-left: 255px;
+ line-height: 45px;
+ height: 45px;
+ margin-top: 5px;
+}
+.login-a{
+ color:#d70506;
+ text-decoration: underline;
+}
+.tab-fastRegister{
+   background-image: url("./../images/fastRegister.png");
+   background-repeat: no-repeat;
+   opacity: 0.6;
+   filter: alpha(opacity=60);
+} 
+.tab-fastRegister-sel{
+   background-image: url("./../images/fastRegisterSel.png");
+   background-repeat: no-repeat;
+} 
+.foot-selectCountry-margin {  
+    margin-top:-20px;
+}
+body,button,input,select,textarea {
+	font: 12px/1.5 Arial, Helvetica, sans-serif;
+}
+
+
+.countryDialog {
+  max-height:400px;
+  overflow:auto;
+  padding:62px,0px;
+  width:484px;
+  background-color: #fff;
+  box-shadow: 0 1px 7px #afadae;
+  z-index: 10005;
+}
+.dcent2 {
+ margin:40px 63px;
+}
+.item2{
+  height:42px;
+  line-height:42px;
+  border-bottom: 1px solid #e5e5e5;
+  position:relative;
+}
+
+
+.selected {
+    padding: 10px;
+    cursor: pointer;
+    background-image: url("${redPng}");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.selectedBackground {
+  background-color:#ebebeb;
+}
+.loginAndRegLink{color: #00C0F4;text-decoration: underline;}
+.loginAndRegLink:hover {
+  /* color: #c52525; */
+}
+
+.reg-btn .btn.sel:hover{ /*border-color: #d41419; background: #d41419; color: #fff;*/}
+.node-input .dbtn2:hover{ /*border-color: #d41419; background: #d41419; color: #fff;*/}
+
+.selectCountryImg_style{float:right;right:10px;}
+.selectedCountry_style{float:right;margin-right:10px;margin-top:8px;}
+.seleInter{right: 10px;}
+.reg-child{text-align: center;}
+
+.agrIndent{text-indent: 2em;}
+.agrLineH{line-height:180%;color: #000000;}
+.selectCountry-right{float:right;}
+.regAgrTitle{margin-bottom:20px;margin-top:-8px;font-size:16px;}
+.checkboxFive{width:11px;position: relative;margin-top: 4px;}
+.checkboxFive label {cursor: pointer;position: absolute;width: 11px;height: 12px;top: 0;left: 0;background: #9a9a9a;border:1px solid #fff;border-radius: 3px;}
+.checkboxFive label:after {opacity: 0.4;content: '';position: absolute;width: 7px;height: 4px;background: transparent;top: 2px;left: 1px;border: 2px solid #fff;border-top: none;border-right: none;-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-o-transform: rotate(-45deg);-ms-transform: rotate(-45deg);transform: rotate(-45deg);}
+.checkboxFive input[type=checkbox] {display:none;} 
+.checkboxFive input[type=checkbox]:checked + label:after {opacity: 1;}
+.checkboxFive label:hover::after {opacity: 0.5;}
+.checkboxFive input[type=checkbox]:checked ~ label {background-color:#28C0C6;}
+.adContentPart{margin-left:20px;line-height:180%;}
+.adCheckBoxPart{width:13px;float:left;}

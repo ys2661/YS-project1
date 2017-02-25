@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<head>
+		<meta charset="utf-8" />
+		<title>华为商城首页</title>
+		<link rel="stylesheet" type="text/css" href="../css/commend.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/商品.css"/>
+		<script type = "text/javascript" src = "../js/ajax.js"></script>
+		<script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+		<script type = "text/javascript" src = "../js/perfect_startMove.js"></script>
+		<script type = "text/javascript" src = "../js/shoppingCar.js"></script>
+		<script src = "../js/IQuery_animate.js" type = "text/javascript"></script>
+		<script type="text/javascript" src="../js/商品页面.js"></script>
+		<script type="text/javascript" src="../js/commend.js"></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+		<link rel="stylesheet" type="text/css" href="../font_family/iconfont.css" />
+		
+	</head>
+	<body>
+		<!--header头部-->
+		<div id="header">
+			<ul class="header-left">
+				<li><a href="#">华为官网</a></li>
+				<li><a href="#">荣耀官网</a></li>
+				<li class="secmenu1 secmenu"><a href="#">软件应用</a><i class="iconfont icon-xia"></i>
+					<div class="secmenu-active secmenu-active1">
+						<a href="#">软件应用</a><i class="iconfont icon-you"></i><br />
+						<a href="#">EMUI</a><br />
+						<a href="#">应用市场</a><br />
+						<a href="#">云服务</a><br />
+						<a href="#">开发者联盟</a><br />
+					</div>
+				</li>
+				<li><a href="#">花粉俱乐部</a></li>
+				<li><a href="#">Select Region</a></li>
+			</ul>
+			<ul class="header-right">
+				<li><a href="登录.html">登录</a>&emsp;<a href="注册页面.html">注册</a></li>
+				<li><a href="#">我的订单</a></li>
+				<li><a href="#">V码(优购码)</a></li>
+				<li><a href="#">手机版</a></li>
+				<li class="secmenu2 secmenu"><a href="#">网站导航</a><i class="iconfont icon-xia"></i>
+					<div class="secmenu-active secmenu-active2">
+						<a href="#">网站导航</a><i class="iconfont icon-you"></i><br />
+						<a href="#">帮助中心</a><br />
+						<a href="#">pc软件</a><br />
+						<a href="#">数字音乐</a><br />
+						<a href="#">爱旅</a><br />
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--搜索栏-->
+		<div id="search">
+			<h1><a href="#"><img src="../img/logo20161214211126.png" alt="华为商城首页" /></a></h1>
+			<form>
+			<input type="text" class="insearch" value="" /><button class="ok"><i class="iconfont icon-sousuo"></i></button>
+			</form>
+			<div class="myifor">
+				<span class="market">
+					<a href="#" class="mainMarket"><span>我的商城</span>&ensp;<i class="iconfont icon-xia1"></i></a>
+					<div class="secMarket">
+						<p class = "marketP1">
+							<span>你好，请</span>
+							<a href="登录.html">登录</a>
+							<a href="注册页面.html">注册</a>
+						</p>
+						<ul class="marketP2">
+							<li><a href="#">我的订单</a></li>
+							<li><a href="#">待支付</a></li>
+							<li><a href="#">待评论</a></li>
+							<li><a href="#">优惠券</a></li>
+							<li><a href="#">站内信</a></li>
+						</ul>
+						<a href="#" class="marketP3"><img src="../img/20160127095348354.jpg"></a>
+					</div>
+				</span>
+				<span class="buyCar">
+					<a href="#" class="mainbuyCar"><span>我的购物车</span>&ensp;<i class="iconfont icon-xia1"></i></a>
+					<div class="secBuyCar">
+						<span class="buyCarInfor" >
+							<em class="iconfont icon-gouwuche1"></em>
+							您的购物车是空的，赶紧选购吧！
+						</span>
+						<ul class="buyCarPro" style="display: none">
+							<!--<li>
+								<a class="buyCarPic"  href="#"><img src="../img/【荣耀 Magic 专属真皮皮套】_华为商城3_files/428_428_1484218331968mp.jpg"/></a>
+								<a class="li-title" href="#">荣耀 Magic 专属真皮皮套 棕色</a>
+								<p><span>¥ 599.00 </span> X 1</p>
+								<button>X</button>
+							</li>-->
+						</ul>
+						<div class="settle" style="display: none">
+							<p>共<span class="totle_count">1</span>件商品，金额合计<span class="totle_price">¥ 599.00 </span></p>
+							<button>去结算</button>
+						</div>
+					</div>
+					<span class="amount">0</span>
+				</span>
+			</div>
+			<div id="erweima">
+				<div class="vmall_ma">
+					<div class="vmall_ma1">
+						<img src="../img/qrcode_vmall_app01.png" />
+						<p>专享周三无线专场</p>
+					</div>
+					<div class="vmall_ma2">
+						<img src="../img/qrcode_vmall_wechat01.jpg" alt="" />
+						<p>微信扫码关注我们</p>
+					</div>
+				</div>
+				<div class="link0">
+					<span class="link1"><a href="#vmall_ma1"></a></span>
+					<span class="link2"><a href="#vmall_ma2"></a></span>
+				</div>
+			</div>
+		</div>
+		<!--nav导航-->
+		<div id="wrapnav">
+			<div id="nav">
+				<div class="mygold">
+					<span class="nidaye">全部商品</span>
+					<i class="iconfont icon-xia1"></i>
+					<div class="downmenu">
+						<ul class="showmenu">
+						</ul>
+					</div>
+				</div>
+				<a href="../index.html">首页</a>
+				<a href="#">华为专区</a>
+				<a href="#">荣耀专区</a>
+				<a href="#">华为情人节</a>
+				<a href="#">荣耀情人节</a>
+				<a href="#">HUAWEI Mate9</a>
+				<a href="#">智能家居</a>
+				<a href="#">配件</a>
+			</div>
+		</div>
+		<div id="wrap-list">
+			<div class="list0">
+				<a href="#">首页</a><span>&nbsp;&gt;&nbsp;</span><span>荣耀 Magic 专属真皮皮套（棕色)</span>
+			</div>
+			<div class="productinfor">
+				<div class="productpic" >
+					<div class="picOrBig">
+						<div class="small" >
+							<img src="../img/【荣耀 Magic 专属真皮皮套】_华为商城3_files/428_428_1484218331968mp.jpg" /><b></b>
+						</div>
+						<div class="big">
+							<img src="../img/【荣耀 Magic 专属真皮皮套】_华为商城3_files/428_428_1484218331968mp.jpg" />
+						</div>
+					</div>
+					<div class="productlist">
+						<span class="pic-left iconfont icon-zuo"></span>
+						<div class="list">
+							<img src=" ../img/【荣耀 Magic 专属真皮皮套】_华为商城3_files/428_428_1484218331968mp.jpg"/>
+							<img src="../img/【荣耀 Magic 专属真皮皮套】_华为商城3_files/428_428_1484218356658mp.jpg"/>
+							<img src=" ../img/【荣耀 Magic 专属真皮皮套】_华为商城3_files/428_428_1484218328068.jpg"/>
+						</div>
+						<span class="pic-right iconfont icon-zuo-copy" ></span>
+					</div>
+				</div>
+				<div class="introduce">
+					<div class="intro-title">
+						<span class="h3">荣耀 Magic 专属真皮皮套</span>
+					</div>
+					<div class="intro-price">
+						<p class="price">华 为  价：<span >¥ 599.00 </span></p>
+						<p>商品编码：1301020005602</p>
+						<p>商品评分：<span>★★★★★</span><a href="#">（共 4 条评论）</a></p>
+						<p>运      费： <span>满 99 免运费</span></p>
+						<p>服      务：由华为商城负责发货，并提供售后服务</p>
+						<p>支      持： <i class="iconfont icon-yijiuhuanxintubiao03"></i>以旧换新，<a href="#">旧机回收最高抵5599元</a> <i class="iconfont icon-jinlingyingcaiwangtubiao07"></i>购买送积分</p>
+						<div class="phonebuy">
+							<span>手机购买</span>
+							<i class="iconfont icon-erweima"></i>
+							<div class="phoneLog">
+								<img src="../img/【荣耀 Magic 专属真皮皮套】_华为商城3_files/二维码登录.jpg"/>
+							</div>
+						</div>
+					</div>
+					<div class="productselect">
+						<div class="selectcolor">
+							<span>选择颜色： </span>
+							
+								<dl id="proColor1">
+									<dt id="0">
+										<img src="../img/【荣耀 Magic 专属真皮皮套】_华为商城3_files/428_428_1484218331968mp.jpg" alt="" />
+										<i class="iconfont icon-youxiajiao"></i>
+									</dt>
+									<dd>黑色</dd>
+								</dl>
+								<dl id="proColor2">
+									<dt id="1">
+										<img src="../img/【荣耀 Magic 专属真皮皮套】_华为商城3_files/428_428_1484218356658mp.jpg" alt="" />
+										<i class="iconfont icon-youxiajiao"></i>
+									</dt>
+									<dd>棕色</dd>
+								</dl>	
+						
+						</div>
+						<p class="linkpro"><span>关联商品： </span><a href="#">荣耀Magic</a></p>
+						<form class="mount">
+							<span>购买数量： </span><h2 class="down">-</h2><input class="showmount" type="text" value="1"/><h2 class="up" >+</h2>
+						</form>
+						<div class="tobuycar tobuycar1" >
+							<p class="inform">您选择了<span>黑色</span></p>
+							<p class="noticepro"><i></i><span>到货通知</span></p>
+						</div>
+						<div class="tobuycar tobuycar2" style="display: none;">
+							<p class="inform">您选择了<span>棕色</span></p>
+							<p class="noticepro1"><i class="iconfont icon-gouwuche1"></i><span class="addSc">加入购物车</span></p>
+							<p class="noticepro"><span>立即下单</span></p>
+						</div>
+					</div>
+				</div>
+ 			</div>
+ 			<div class="nav2">
+ 				<a href="#">商品详情</a>
+ 				<a href="#">规格参数</a>
+ 				<a href="#">包装清单</a>
+ 				<a href="#">用户评价（4）</a>
+ 				<a href="#">售后服务</a>
+ 			</div>
+		</div>
+		<div id="foot">
+			<ul class="service1">
+				<li><a href="#"><i class="iconfont icon-cir-star"></i><span>500强企业 品质保证</span></a></li>
+				<li><a href="#"><i class="iconfont icon-7"></i><span>7天退货 15天换货</span></a></li>
+				<li><a href="#"><i class="iconfont icon-shuangxiangzhuanzhen"></i><span>99元起免运费</span></a></li>
+				<li><a href="#"><i class="iconfont icon-shouhoufuwu"></i><span>448家维修网点 全国联保 </span></a></li>
+			</ul>
+			<div id="information">
+				<div class="infor">
+					<ul>
+						<p><i class="iconfont icon-bangzhu"></i><span>帮助中心</span></p>
+						<li><a href="#">购物指南</a></li>
+						<li><a href="#">配送方式</a></li>
+						<li><a href="#">支付问题</a></li>
+						<li><a href="#">常见问题</a></li>
+					</ul>
+					<ul>
+						<p><i class="iconfont icon-shouhou"></i><span>售后服务</span></p>
+						<li><a href="#">保修政策</a></li>
+						<li><a href="#">退换货政策</a></li>
+						<li><a href="#">退换货流程</a></li>
+						<li><a href="#">保修状态查询</a></li>
+					</ul>
+					<ul>
+						<p><i class="iconfont icon-jishuduijie"></i><span>技术支持</span></p>
+						<li><a href="#">售后网点</a></li>
+						<li><a href="#">荣耀零售店铺</a></li>
+						<li><a href="#">预约维修</a></li>
+						<li><a href="#">手机寄修服务</a></li>
+						<li><a href="#">维修配件价格查询</a></li>
+						<li><a href="#">软件下载</a></li>
+					</ul>
+					<ul>
+						<p><i class="iconfont icon-guanyu"></i><span>关于商城</span></p>
+						<li><a href="#">公司介绍</a></li>
+						<li><a href="#">华为商城简介</a></li>
+						<li><a href="#">联系客服</a></li>
+					</ul>
+					<ul>
+						<p><i class="iconfont icon-guanzhu"></i><span>关注我们</span></p>
+						<li><a href="#">新浪微博</a></li>
+						<li><a href="#">腾讯微博</a></li>
+						<li><a href="#">花粉俱乐部</a></li>
+						<li><a href="#">商城手机版</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer">
+				<a  href="#"><img src="../img/images/华为商城官网FOOTER_03.jpg"/></a>
+			</div>
+		</div>
+	</body>
+</html>

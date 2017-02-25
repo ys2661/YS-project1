@@ -1,0 +1,98 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,form,span, img,input,button,p{padding:0;margin:0} 
+body{font-size: 12px;width: 100%;height: 3000px;;}
+#header,#search,#picShow,#wraper-starProduct,#foot,#wrapnav{width: 100%;margin:0 auto;}
+li{list-style: none;}
+img { border: none; }
+a{text-decoration: none;color: black;}
+
+
+/*header*/
+#header{height: 29px; border-bottom: 1px solid #ededed;}
+.header-left{list-style: none;float: left;margin-left: 65px;}
+
+#header li{float: left; padding: 0 10px;margin-top: 7px;border-right:1px solid #8c8c8c;}
+#header .header-left li:last-child{border: none;}
+#header li a{color: #8c8c8c;}
+#header li a:hover{color:#ca141c}
+.secmenu{position: relative;}
+.secmenu-active{position: absolute;left:-1px;top:-4px;padding:0 10px;background: white;z-index: 2;display: none;border: 1px solid #e4e4e4;border-top:none ;}
+.secmenu-active a{height: 24px;display: inline-block;line-height: 24px;}
+#header i{margin-left:10px;font-size: 12px;}
+.header-right{list-style: none;float: right;margin-right: 74px;}
+#header .header-right li:last-child{border: none;}
+
+/*search*/
+#search{height: 112px;}
+#search h1{margin-left: 84px;float: left;height: 111px;}
+#search form{margin-top: 35px;float: left;}
+.insearch{width: 395px;height: 38px;border: 1px solid #eee;margin-left: 112px;vertical-align: middle;padding-left: 10px;}
+.ok{height:40px;width: 40px;border:1px solid #eee;vertical-align: middle;}
+.ok i{font-size: 20px;}
+.ok:hover{background: #4c4c4c;color:white}
+.myifor{height: 38px;width: 198px;margin-left: 8px;margin-top: 35px;border: 1px solid #eee;float: left;}
+.myifor a{display:inline-block;}
+.myifor span{display: inline-block;}
+.market{position: relative;z-index: 12;}
+.market div a:hover{color: #ca141c;text-decoration: underline;}
+.mainMarket{display: inline-block;padding-left: 20px;width:78px;z-index: 12;position: relative;}
+.secMarket{width: 200px;height: 260px;position: absolute;top: 37px;left: -1px;background: white;z-index: 3;display: none;}
+.marketP1{width: 198px;height: 25px;padding-top:13px;text-align: center;border: 1px solid #e4e4e4;}
+.marketP1 a{padding: 0 5px;}
+.marketP1 a:nth-of-type(1){border-right: 1px solid black;}
+.marketP2 li{width:98px; margin-top: 28px;float: left;text-align: center;}
+.marketP2 li:nth-of-type(2n-1){border-right:1px solid #e4e4e4 ;}
+.marketP3 {width: 178px;height: 58px;margin: 25px 10px 0 10px;}
+.buyCar{position: relative;z-index: 12;}
+.mainbuyCar{display: inline-block;padding-left: 16px;width: 80px;z-index: 12;position: relative;}
+
+/******购物车*******/
+.secBuyCar{width: 465px;background:white;position: absolute;top: 38px; right: 0;z-index: 3;display: none;border: 1px solid #e4e4e4;}
+.buyCarPro{width: 465px;height: auto;}
+.buyCarPro li{width: 465px;height: 110px;position: relative;border-bottom:1px solid #e4e4e4;}
+.buyCarPic{position: absolute;margin: 15px;}
+.buyCarPic img{width: 80px;}
+.li-title{position: absolute;left: 110px;top: 20px;}
+.li-title:hover{color: darkred;text-decoration: underline;}
+.buyCarPro li p{position: absolute;left: 110px;top: 75px;color: #939393;}
+.buyCarPro li p span{color: red;}
+.buyCarPro li button{border: none;line-height: 20px;text-align: center;position: absolute;top: 50px;right: 20px;background: white;font-size: 20px;}
+.myifor a i{font-size: 12px; color:#bdbdbd;}
+
+.settle{position: absolute;height: 80px;width: 465px;border: 1px solid #e4e4e4;border-top:none;bottom: -80px;left: 0px;background: white;}
+.settle p{position: absolute;top: 34px;left: 25px;}
+.settle p span{font-size: 16px;color: #e01d21;}
+.settle button{width: 132px;height: 38px;color: white;background: #e01d21;position: absolute;top: 21px;right: 25px;border: none;font-size: 16px;}
+.settle button:hover{opacity: 0.8;filter: alpha(opacity=80);}
+
+.buyCarInfor{line-height: 110px;font-size: 14px;margin-left: 40px;display: inline-block;height: 110px;}
+.amount{width: 20px; border-radius: 70%;text-align: center;line-height: 15px;background: red;position: absolute;top: -5px;right:5px;z-index: 20;color: white;}
+.myifor a span{display: inline;line-height: 38px;}
+.myifor a span:hover{color: #ca141c;text-decoration: underline;}
+#erweima{position: relative;float:left;margin-left:124px ;margin-top: 16px;overflow: hidden;}
+.vmall_ma{float:left;width: 98px;height: 94px;overflow: hidden;}
+.link0 span{display:inline-block;width:10px;height: 10px;border-radius: 50%;background: gray;}
+.link0 .link1{position: absolute;right: 5px;top:5px}
+.link0 .link2{position: absolute;right: 5px;top:25px}
+/*nav*/
+#wrapnav{background: #3a3a3a;height: 40px;}
+#nav{height: 40px;background: #3a3a3a;width: 1200px;margin:0 auto}
+.allProdect{width:222px;background: #c81118;height: 40px;line-height: 40px;display: inline-block;padding-left: 18px;color: white;}
+#nav>a{padding:0 30px;color: white;line-height: 40px;display: inline-block;}
+#nav>a:hover{background:#222121;}
+
+/**/
+#foot{height: 530px;}
+.service1{height: 80px;width: 1200px;margin:0 auto;border-bottom: 1px solid #eee;display: flex;justify-content: space-around;}
+.service1 li a:hover{color: #c9141d;}
+.service1 li i{font-size: 45px;margin-right: 20px;vertical-align: middle;line-height: 80px;}
+.service1 li span{line-height: 80px;vertical-align: middle;}
+#information{width:100%;margin: 0 auto;height: 230px;border-bottom:  1px solid #eee;}
+.infor{width:1200px;height:230px;margin:0 auto;display:flex;justify-content:space-around;margin-top:20px ;}
+.infor ul{width: 160px;height: 230px;}
+.infor ul p{font-size: 14px;line-height: 30px;color: #666666;}
+.infor ul p i{font-size: 20px;margin-right: 10px;}
+.infor ul li{line-height: 24px;margin-left:30px;}
+.infor ul li a{color:#b0b0b0;}
+.infor ul li a:hover{color: #c9141d;text-decoration: underline;}
+#footer{margin: 0 auto;margin-top: 30px;width:1200px;display: flex;justify-content: center;}
+

@@ -1,0 +1,2 @@
+	ec.product.inventory.set("524740445" ,  false);
+	ec.product.inventory.set("915887104" ,  true);
